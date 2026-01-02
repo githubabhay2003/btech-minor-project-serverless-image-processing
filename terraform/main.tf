@@ -187,11 +187,11 @@ resource "aws_cognito_identity_pool_roles_attachment" "role_attachment" {
 }
 
 resource "aws_lambda_function" "image_processor" {
-  function_name = "${var.project_name}-image-processor"
+  function_name = "lambda-image-processor"
   role          = aws_iam_role.lambda_role.arn
 
   package_type = "Image"
-  image_uri    = "889393247632.dkr.ecr.us-east-1.amazonaws.com/serverless-image-processing-lambda:${var.image_tag}"
+  image_uri    = "889393247632.dkr.ecr.us-east-1.amazonaws.com/serverless-image-processing-lambda:lambda"
 
   timeout     = 30
   memory_size = 512
