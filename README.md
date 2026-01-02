@@ -213,3 +213,39 @@ This experience significantly strengthened understanding of **event-driven archi
 * [ ] Add optional API Gateway layer.
 * [ ] Improve frontend UI.
 * [ ] Add image format conversion.
+
+## Repository Structure
+
+```text
+btech-minor-project-serverless-image-processing/
+├── frontend/
+│   ├── index.html
+│   └── app.js
+├── lambda/
+│   ├── Dockerfile
+│   └── image_processor.py
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── README.md
+```
+## Contributing
+
+This repository is intended for academic use.
+
+Contributions are not expected, but suggestions are welcome via issues.
+
+## License
+
+This project is provided for **educational purposes only**.
+
+> **Disclaimer:** No production guarantees are provided.
+
+## Author
+
+**Abhay Kumar Saini**
+*B.Tech Student*
+*Minor Project – Cloud Computing & DevOps*
+
+* **GitHub:** [https://github.com/githubabhay2003](https://github.com/githubabhay2003)
