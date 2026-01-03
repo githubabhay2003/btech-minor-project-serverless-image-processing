@@ -149,11 +149,15 @@ Edit the `frontend/app.js` file and update the following values with the outputs
 * **AWS Region**
 * **Input Bucket Name**
 
+--- 
+
 ## CI/CD Pipeline
 
 **Not implemented.**
 
 This project intentionally avoids CI/CD pipelines to keep the scope suitable for academic evaluation. All deployments are performed manually using Terraform and Docker.
+
+--- 
 
 ## Verification Steps
 
@@ -165,7 +169,7 @@ This project intentionally avoids CI/CD pipelines to keep the scope suitable for
     * Lambda logs appear in CloudWatch.
     * Resized image appears in the output S3 bucket.
     * Thumbnail image appears in the output S3 bucket.
-
+---
 ## Screenshots
 
 ### 1. Frontend Image Upload Interface (Initial State)
@@ -207,6 +211,8 @@ This screenshot shows detailed execution logs including decoded image key, image
 <img width="1919" height="988" alt="Screenshot 2026-01-03 211937" src="https://github.com/user-attachments/assets/6ae365b2-fe07-40a3-939e-9af384c05480" />
 This screenshot shows the successful execution of the `terraform apply` command, confirming that cloud resources such as S3 buckets, Lambda function, permissions, and notifications were provisioned successfully.
 
+--- 
+
 ## Challenges and Learnings
 
 The table below summarizes the **major challenges faced during the project**, the **approach used to resolve them**, and the **key learnings**, written in an academic and viva-friendly manner.
@@ -238,6 +244,7 @@ The systematic debugging approach—logs → permissions → configuration → a
 
 This experience significantly strengthened understanding of **event-driven architectures**, **cloud-native debugging**, and **Infrastructure as Code discipline**, while remaining well within **academic evaluation standards**.
 
+---
 
 ## Future Improvements
 
@@ -246,6 +253,8 @@ This experience significantly strengthened understanding of **event-driven archi
 * [ ] Add optional API Gateway layer.
 * [ ] Improve frontend UI.
 * [ ] Add image format conversion.
+
+---
 
 ## Repository Structure
 
@@ -263,17 +272,23 @@ btech-minor-project-serverless-image-processing/
 │   └── outputs.tf
 ├── README.md
 ```
+---
+
 ## Contributing
 
 This repository is intended for academic use.
 
 Contributions are not expected, but suggestions are welcome via issues.
 
+--- 
+
 ## License
 
 This project is provided for **educational purposes only**.
 
 > **Disclaimer:** No production guarantees are provided.
+
+--- 
 
 ## Author
 
@@ -282,5 +297,6 @@ This project is provided for **educational purposes only**.
 *Minor Project – Cloud Computing & DevOps*
 
 * **GitHub:** [https://github.com/githubabhay2003](https://github.com/githubabhay2003)
+
 
 
